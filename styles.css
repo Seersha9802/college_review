@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+ul{
+    list-style:none;
+    
+}
+
+.home{
+    position: absolute;
+    width: 65px;
+    height: 28px;
+    left: 690px;
+    top: 66px;
+    color: #000000;
+    text-decoration: none;
+}
+.about{
+    position: absolute;
+    width: 63px;
+    height: 28px;
+    left: 835px;
+    top: 66px;
+    color: #000000;
+    text-decoration: none;
+}
+.contests{
+    position: absolute;
+    width: 95px;
+    height: 28px;
+    left: 978px;
+    top: 66px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: url(purple-ambient-hd-5k-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+
+}
+
+.search-bar{
+    width:100%;
+    max-width: 700px;
+    background:rgba(255,255,255,0.2) ;
+    display:flex;
+    align-items:center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input{
+    background: transparent; 
+    flex:1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color:#cac7ff;
+}
+
+::placeholder{
+    color: rgb(174, 123, 255);
+}
+
+.search-bar button img{
+    width: 25px;
+}
+
+.search-bar button{
+    border:0;
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+
+
+
+
